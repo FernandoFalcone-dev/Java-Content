@@ -10,7 +10,7 @@ Repositório feito com base em pesquisas e leitura da documentação a fim de ma
     - Anatomia das classes :heavy_check_mark:
     - Palavras Reservadas
     - Tipos de dados, variáveis e constantes :heavy_check_mark:
-    - Métodos
+    - Métodos :heavy_check_mark:
     - Escopo de código
     - Criando objetos
     - Java Beans
@@ -124,3 +124,4 @@ Repositório feito com base em pesquisas e leitura da documentação a fim de ma
 - [DEVMEDIA](https://www.devmedia.com.br/)
 - [TreinaWeb](https://www.treinaweb.com.br/)
 - [GeeksforGeeks](https://www.geeksforgeeks.org/)
+- [Javatpoint](https://www.javatpoint.com/)
