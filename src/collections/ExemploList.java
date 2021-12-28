@@ -12,6 +12,8 @@ class ExemploList {
         //List<Double> notas = new ArrayList<>(); forma mais comum de instanciar
         List<Double> notas = new ArrayList<>(Arrays.asList(8.5, 6d, 8.75, 5.5)); // forma de inicializar já com alguns elementos
 
+        notas.add(10.0);
+
         // INSERÇÃO E PESQUISA
         notas.add(9.0); // adiciona um elemento específico
         notas.add(4, 7.5); // adiciona um elemento dentro do index determinado
