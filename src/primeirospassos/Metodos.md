@@ -4,7 +4,7 @@
 
 Um método é um bloco de código que quando invocado, executa uma tarefa específica. Em java, método é equivalente a uma função.
 
-***IMPORTANTE***
+***IMPORTANTE***  
 Não existe em Java o conceito de métodos globais. Todos os métodos devem sempre ser definidos dentro de uma classe.
 
 ### Vantagens
@@ -59,6 +59,6 @@ public static void main(String args[]){}
 - main(): é a assinatura default predefinida pela JVM
 - String args[]: usado para manter os argumentos da linha de comando na forma de valores de string.
 
-*CURIOSIDADE*
-O que acontece se o método **main()** não for escrito com **String args[]**?
-O programa irá compilar, mas não irá executar, porque a JVM não reconhecerá o método main().
+*CURIOSIDADE*  
+O que acontece se o método **main()** não for escrito com **String args[]**?  
+O programa irá compilar, mas não irá executar, porque a JVM não reconhecerá o método main().  

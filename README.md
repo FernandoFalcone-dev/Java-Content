@@ -1,5 +1,7 @@
 # Conteúdos / Exemplos em Java
 
+![Java logo](img/java-logo.png)
+
 Repositório feito com base em pesquisas e leitura da documentação a fim de mapear um plano de estudo na linguagem Java.
 
 - **Fundamentos**
@@ -109,9 +111,9 @@ Repositório feito com base em pesquisas e leitura da documentação a fim de ma
     -	JSON
     -	JSON Parser
 
-***Legenda:***
-- Tópico (negrito) / Subtópico (enumerado)
-- :heavy_check_mark: : Completo
+***Legenda:***  
+- Tópico (negrito) / Subtópico (enumerado)  
+- :heavy_check_mark: : Completo  
 
 ### ... **Continua** :arrow_down:
 
@@ -119,9 +121,9 @@ Repositório feito com base em pesquisas e leitura da documentação a fim de ma
 
 ### *FONTES*
 
-- [Documentação Oracle](https://docs.oracle.com/en/java/)
-- [Wikipédia Java](https://pt.wikipedia.org/wiki/Java_(linguagem_de_programa%C3%A7%C3%A3o))
-- [DEVMEDIA](https://www.devmedia.com.br/)
-- [TreinaWeb](https://www.treinaweb.com.br/)
-- [GeeksforGeeks](https://www.geeksforgeeks.org/)
-- [Javatpoint](https://www.javatpoint.com/)
+- [Documentação Oracle](https://docs.oracle.com/en/java/)  
+- [Wikipédia Java](https://pt.wikipedia.org/wiki/Java_(linguagem_de_programa%C3%A7%C3%A3o))  
+- [DEVMEDIA](https://www.devmedia.com.br/)  
+- [TreinaWeb](https://www.treinaweb.com.br/)  
+- [GeeksforGeeks](https://www.geeksforgeeks.org/)  
+- [Javatpoint](https://www.javatpoint.com/)  
