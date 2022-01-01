@@ -3,16 +3,18 @@ package collections;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
+
+import collections.comparators.ComparatorAno;
+import collections.comparators.ComparatorCor;
+import collections.comparators.ComparatorMarcaCorAno;
+import collections.model.Carro;
 
 class ExemploList {
     public static void main(String[] args) {
         //List<Double> notas = new ArrayList<>(); forma mais comum de instanciar
         List<Double> notas = new ArrayList<>(Arrays.asList(8.5, 6d, 8.75, 5.5)); // forma de inicializar já com alguns elementos
-
-        notas.add(10.0);
 
         // INSERÇÃO E PESQUISA
         notas.add(9.0); // adiciona um elemento específico
@@ -52,7 +54,7 @@ class ExemploList {
         System.out.println(notas + "\n");
 
         // CHECAGEM
-        System.out.println("A lista está vazia? " + notas.isEmpty());
+        System.out.println("A lista está vazia? " + notas.isEmpty() + "\n");
 
         // ORDENAÇÃO
         List<Carro> carros = new ArrayList<>(){{
@@ -88,87 +90,3 @@ class ExemploList {
     }
 }
 
-class Carro implements Comparable<Carro>{
-    private String cor;
-    private String marca;
-    private Integer ano;
-
-
-    public Carro(String cor, String marca, Integer ano) {
-        this.cor = cor;
-        this.marca = marca;
-        this.ano = ano;
-    }
-
-
-    public String getCor() {
-        return this.cor;
-    }
-
-    public void setCor(String cor) {
-        this.cor = cor;
-    }
-
-    public String getMarca() {
-        return this.marca;
-    }
-
-    public void setMarca(String marca) {
-        this.marca = marca;
-    }
-
-    public Integer getAno() {
-        return this.ano;
-    }
-
-    public void setAno(Integer ano) {
-        this.ano = ano;
-    }
-
-
-    @Override
-    public String toString() {
-        return "{" +
-            " cor='" + getCor() + "'" +
-            ", marca='" + getMarca() + "'" +
-            ", ano='" + getAno() + "'" +
-            "}";
-    }
-
-    @Override
-    public int compareTo(Carro carro) {
-        
-        return this.getMarca().compareToIgnoreCase(carro.getMarca());
-    }
-    
-}
-
-class ComparatorCor implements Comparator<Carro> {
-    @Override
-    public int compare(Carro c1, Carro c2) {
-       
-        return c1.getCor().compareToIgnoreCase(c2.getCor());
-    }
-}
-
-class ComparatorAno implements Comparator<Carro> {
-    @Override
-    public int compare(Carro c1, Carro c2) {
-        return c1.getAno().compareTo(c2.getAno());
-    }
-}
-
-class ComparatorMarcaCorAno implements Comparator<Carro> {
-
-    @Override
-    public int compare(Carro c1, Carro c2) {
-        int marca = c1.getMarca().compareToIgnoreCase(c2.getMarca());
-        if (marca != 0) return marca;
-
-        int cor = c1.getCor().compareToIgnoreCase(c2.getCor());
-        if (cor != 0) return cor;
-
-        return Integer.compare(c1.getAno(), c2.getAno());
-    }
-
-}
