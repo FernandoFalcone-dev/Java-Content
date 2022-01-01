@@ -70,7 +70,7 @@ Se precisarmos acessar os elementos frequentemente por seu **id**
     - Compara elementos através do `equals()` e `hashCode()`;
     - Não é sincronizada;
 
-- Treeset
+- TreeSet
     - Implementa as interfaces **NavigableSet<E>** **SortedSet<E>**
     - Usa *TreeSet* internamente para armazenar elementos;
     - É ordenada de acordo com a ordem natural dos elementos, se nenhum *Comparator* for fornecido;

@@ -70,7 +70,7 @@ Repositório feito com base em pesquisas e leitura da documentação a fim de ma
 - **Coleções**
     -	Introdução :heavy_check_mark:
     -	Interface Collection  :heavy_check_mark:
-    -	List \ Set
+    -	List \ Set :heavy_check_mark:
     -	Queue \ Map
     -	Comparable x Comparator :heavy_check_mark:
     -	Classe Collections
