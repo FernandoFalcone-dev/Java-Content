@@ -79,3 +79,7 @@ Se precisarmos acessar os elementos frequentemente por seu **id**
 
 **QUANDO USAR?**  
 Quando queremos criar uma coleção de elementos únicos e garantir uma melhor performance.
+
+**Documentação:**  
+- [List interface](https://docs.oracle.com/javase/8/docs/api/java/util/List.html)
+- [Set interface](https://docs.oracle.com/javase/8/docs/api/java/util/Set.html)

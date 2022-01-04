@@ -2,7 +2,7 @@
 
 ![Java logo](img/java-logo.png)
 
-Repositório feito com base em pesquisas e leitura da documentação a fim de mapear um plano de estudo na linguagem Java.
+Repositório feito com base em pesquisas e leitura da documentação a fim de trazer conteúdos e seus respectivos exemplos na linguagem Java, além de mapear um plano de estudo.
 
 - **Fundamentos**
     - Introdução :heavy_check_mark:
