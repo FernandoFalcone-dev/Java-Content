@@ -1,4 +1,4 @@
-# Conteúdos / Exemplos em Java
+# Conteúdos / Exemplos Java
 
 ![Java logo](img/java-logo.png)
 
@@ -71,7 +71,7 @@ Repositório feito com base em pesquisas e leitura da documentação a fim de tr
     -	Introdução :heavy_check_mark:
     -	Interface Collection  :heavy_check_mark:
     -	List \ Set :heavy_check_mark:
-    -	Queue \ Map
+    -	Queue \ Map :heavy_check_mark:
     -	Comparable x Comparator :heavy_check_mark:
     -	Classe Collections
 

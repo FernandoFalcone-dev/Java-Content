@@ -27,7 +27,7 @@ Esta interface não é derivada da interface **Collection**. Ela é um objeto qu
     - Mantém a ordem de inserção;
     - Permite chaves nulas;
     - Não é sincronizada. Utiliza do método `Collections.synchronizedMap` para garantir threads seguras;
-    - As comparações são feitas através do `equals()` e `hashCode()`;
+    - As comparações são feitas através do `equals()` e `hashCode()`;  
 ***Map<K, V> lhm = new LinkedHashMap<K, V>();***
 
 - TreeMap:
@@ -36,7 +36,7 @@ Esta interface não é derivada da interface **Collection**. Ela é um objeto qu
     - Ordena de acordo com a ordem natural dos elementos ou pela regra ditada de um **Comparator**;
     - Não permite chaves nulas;
     - Não é sincronizada. Utiliza do método `Collections.synchronizedMap` para garantir threads seguras;
-    - Um comparador precisa ser fornecido para fazer a comparação;
+    - Um comparador precisa ser fornecido para fazer a comparação;  
 ***Map<K, V> hm = new TreeMap<K, V>();***
 
 
