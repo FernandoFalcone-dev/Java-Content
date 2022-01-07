@@ -1,4 +1,4 @@
-package collections;
+package collections.exemplos;
 
 import java.util.Collections;
 import java.util.HashMap;
@@ -87,7 +87,7 @@ public class ExemploMap {
         }};
         System.out.println(timesBrasileiros1 + "\n");
 
-        //Ordena pelo ordem natural
+        //Ordena pela ordem natural
         System.out.println("Exiba os times ordenados pela abreviação: ");
         Map<String, Integer> timesBrasileiros2 = new TreeMap<>(timesBrasileiros1);
         System.out.println(timesBrasileiros2 + "\n");
@@ -96,5 +96,6 @@ public class ExemploMap {
         timesBrasileiros.clear();
 
         System.out.println("Os times foram todos apagados? " + timesBrasileiros.isEmpty());
+
     }
 }
