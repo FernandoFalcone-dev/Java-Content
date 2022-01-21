@@ -35,6 +35,10 @@ O padrão JavaBeans prevê quatro tipos de propriedades: simples (valor único),
 
 - **Propriedades Restritas**: são como as bound, só que permitem que a alteração seja vetada antes de ocorrer.  
 
+### Eventos
+
+A interação entre JavaBeans é feita através de um modelo de eventos (event model) conhecido como modelo de delegação (delegation model). Esse modelo segue o pattern Observer: um objeto (denominado source) é responsável por criar o evento e dispará-lo. Os objetos interessados em receber notificações sobre a ocorrência do evento (listeners) se inscrevem e são avisados sempre que um evento ocorre, podendo agir sobre ele.  
+
 ### Documentação oficial
 
 - [JavaBeand Component API](https://docs.oracle.com/javase/8/docs/technotes/guides/beans/index.html)
