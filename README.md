@@ -15,7 +15,7 @@ Repositório feito com base em pesquisas e leitura da documentação a fim de tr
     - Métodos :heavy_check_mark:
     - Escopo de código
     - Criando objetos
-    - Java Beans
+    - Java Beans :heavy_check_mark:
     - Depurando o código
 
 - **Recursos da linguagem**
